@@ -16,5 +16,10 @@ public class Main {
             // for you, but you can always add more by pressing Cmd+F8.
             System.out.println("i = " + i);
         }
+
+        Person Driver = new Person();
+        Driver.setName("Driver");
+
+        System.out.println(Driver.name);
     }
 }
